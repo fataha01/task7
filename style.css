@@ -1,0 +1,22 @@
+
+form{
+    background-image: url(./images/form_bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+@media (max-width: 992px){
+    .custom-center{
+        text-align: center;
+    }
+    .custom-center3{
+        text-align: center;
+    }
+
+}
+@media (max-width: 1200px){
+    .sec1{
+        margin-bottom: 1em;
+
+    }
+}

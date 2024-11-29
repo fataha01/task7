@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>task 6</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <!-- header -->
+  <header class="header">
+    <img src="./images/logo.png" alt="logo" />
+
+    <div class="headsec">
+      <h2>CALL OUR OFFICES NOW!</h2>
+      <h1>540.433.6906</h1>
+      <p>Get Your Questions Answered Fast</p>
+    </div>
+  </header>
+
+  <!-- navigation -->
+  <div class="navigation">
+    <a>CONTACT</a>
+    <a>LIBRARY</a>
+    <a>AREAS WE SERVE</a>
+    <a>BLOG</a>
+    <a>BIOGRAPHY</a>
+    <a class="active">HOME</a>
+  </div>
+
+  <!-- sec1 part 1 -->
+  <section class="section1">
+    <img src="./images/gurantee_banner.gif" alt="guarantee_banner" class="guaranteeBanner" />
+
+    <!-- sec1 part 2 -->
+    <form action="" class="sec1div">
+      <div style="display: flex">
+        <button type="textbox" class="button1">QUESTIONS?</button>
+        <div>
+          <p class="s1p1">
+            Have a<span style="color: darkblue; font-weight: 800; font-size: 2rem">
+              Question</span>
+          </p>
+          <p class="s1p2">About Your Case?</p>
+        </div>
+      </div>
+      <p class="s1p3">
+        Enter your information and get your questions answered quickly
+        and discreetly or call us at: <span style="font-weight: 700">540-433-6906</span>
+      </p>
+      <div style="display: flex;">
+        <div class="namemailphone">
+          <label for="name">&nbsp; NAME: </label>
+          <input type="text" />
+          <br /><br />
+          <label for="email">&nbsp; EMAIL: </label>
+          <input type="text" />
+          <br /><br />
+          <label for="phpne">PHONE: </label>
+          <input type="text" />
+          <br />
+        </div>
+        <img src="./images/confidential.png" alt="confidential" class="rotateImg">
+      </div>
+      <textarea rows="3" placeholder="Tell us about your case here..."></textarea>
+      <p class="s1p4">100% Privacy
+        Guaranteed<span>
+          <button class="button2" type="button">
+            Ask Us About Your Case
+          </button></span><img src="./images/bullet_white.gif" alt="img" class="btn2img">
+      </p>
+    </form>
+  </section>
+
+  <!-- section 2-->
+  <section class="sec2">
+    <div class="sec2d1">
+
+      <div>
+        <h2 class="sec2h2">CHARGED WITH <span
+            style="color: brown; font-family: 'Times New Roman', Times, serif;">DUI?</span></h2>
+        <h3 class="sec2h3">FREE CASE EVALUATION</h3>
+      </div>
+      <div style="display: flex; ">
+        <div>
+          <p class="s2d1p01">Being charged with a DUI can be scary. Get the help you deserve.</p>
+          <p class="s2d1p01">Click here to let us know how we can help you with your case.</p>
+        </div>
+        <div>
+          <img src="./images/paste_board.gif" alt="paste_board" class="s2d1img">
+        </div>
+      </div>
+      <div class="three">
+        <img class="shadowLine" src="./images/hr_shadow.png" alt="shadow">
+        <div>
+          <button class="button3" type="button">
+            CLICK HERE
+            <img src="./images/bullet_white.gif" alt="img" class="btn3img">
+          </button>
+        </div>
+
+      </div>
+    </div>
+
+
+
+    <div class="sec2d2">
+      <div style="display: flex;">
+        <div>
+          <h2 class="sec2h2">LAW <span style="color: brown; font-family: 'Times New Roman', Times, serif;">BLOG</span>
+          </h2>
+          <p class="s2d1p1">Learn more about Virginia Traffic Laws.</p>
+          <div class="lawblogbtn">
+            <img class="shadowLine4" src="./images/hr_shadow.png" alt="shadow">
+            <button class="button4" type="button">
+              CLICK HERE
+              <img src="./images/bullet_white.gif" alt="img" class="btn4img">
+            </button>
+          </div>
+        </div>
+        <div>
+          <img src="./images/pic1.gif" alt="" class="sec2d2img">
+        </div>
+      </div>
+
+
+      <div style="display: flex;">
+        <div>
+          <h2 class="sec2h2">CASE <span
+              style="color: brown; font-family: 'Times New Roman', Times, serif;">RESULTS</span>
+          </h2>
+          <p class="s2d1p1">See how we help our clients. Read our latest case
+            results.</p>
+          <div class="lawblogbtn">
+            <img class="shadowLine4" src="./images/hr_shadow.png" alt="shadow">
+            <button class="button4" type="button">
+              CLICK HERE
+              <img src="./images/bullet_white.gif" alt="img" class="btn4img">
+            </button>
+          </div>
+        </div>
+        <div>
+          <img src="./images/order_icon.gif" alt="" class="sec2d2img">
+
+        </div>
+
+      </div>
+    </div>
+
+
+    <div class="sec2d3">
+      <div class="cncimg">
+        <img src="./images/qqq.gif" alt="" width="150px">
+        <img src="./images/national_college_small.gif" alt="" width="130px">
+      </div>
+
+      <div>
+        <h2 style=" font-family: 'Times New Roman', Times, serif;">CERTIFICATES & <br><span
+            style="color: brown; font-family: 'Times New Roman', Times, serif;">CREDENTIALS</span> </h2>
+        <p class="s2d1p1">Keefer Law Firm has proyected the<br>
+          rights of Virginians for over 30 years.</p>
+
+        <div class="fifth">
+          <img class="shadowLine5" src="./images/hr_shadow.png" alt="shadow">
+          <button class="button5" type="button">
+            LEARN MORE
+            <img src="./images/bullet_white.gif" alt="img" class="btn5img">
+          </button>
+        </div>
+      </div>
+    </div>
+
+
+  </section>
+  <img src="./images/lf_bt_hr_shadow.png" alt="" class="pagedivider">
+
+  <!-- section 3 -->
+  <section class="section3">
+    <div>
+      <div>
+      <P class="practiceareas">PRACTICE <span
+          style="color: brown; font-weight: 600; font-family: 'Times New Roman', Times, serif;">AREAS</span></P>
+        </div>
+      <div class="sec3d1">
+        <img src="./images/pra_bg_red.gif" alt="" width="6%" height="80px">
+        <p class="s3d1p1">DUI & DWI</p>
+        <p class="s3d1p2">LEARN MORE
+          <img src="./images/bullet_red.gif" alt="">
+        </p>
+      </div>
+      <img src="./images/hr_shadow.png" alt="" class="s3d1shadow">
+      <br>
+
+      <div class="sec3d1">
+        <img src="./images/pra_bg_red.gif" alt="" width="6%" height="80px">
+        <p class="s3d1p1">SPEEDING TICKETS</p>
+        <p class="s3d1p2">LEARN MORE
+          <img src="./images/bullet_red.gif" alt="">
+        </p>
+      </div>
+      <img src="./images/hr_shadow.png" alt="" class="s3d1shadow">
+      <br>
+
+      <div class="sec3d1">
+        <img src="./images/pra_bg_red.gif" alt="" width="6%" height="80px">
+        <p class="s3d1p1">TRAFFIC VOILATIONS
+        </p>
+        <p class="s3d1p2">LEARN MORE
+          <img src="./images/bullet_red.gif" alt="">
+        </p>
+      </div>
+      <img src="./images/hr_shadow.png" alt="" class="s3d1shadow">
+      <br>
+
+      <div class="sec3d1">
+        <img src="./images/pra_bg_red.gif" alt="" width="6%" height="80px">
+        <p class="s3d1p1">RECKLESS DRIVING</p>
+        <p class="s3d1p2">LEARN MORE
+          <img src="./images/bullet_red.gif" alt="">
+        </p>
+      </div>
+      <img src="./images/hr_shadow.png" alt="" class="s3d1shadow">
+      <br>
+
+      <p class="learnmoreabout">LEARN
+        <span style="color: brown; font-family: 'Times New Roman', Times, serif;">MORE </span>ABOUT
+      </p>
+
+      <p class="s3d1p3">
+        MENU AREA HERE</p>
+    </div>
+
+    <div class="sec3d2">
+      <p class="titlehere">
+        &lt;H1&gt; PAGE
+        TITLE HERE</p>
+      <p class="loremtext">
+        Lorem t amet, consectetur adipiste ex deleniti corporis
+        earum quisquam quod pma beatae natus similique doloetur werwer
+        mollitia reprehenderit pariatur rem, optio suscipit! dfsfs dsfssd
+        Lm ipsumr sit amet, consectetur adipisicing elit. Cis dsfsdfer rrt
+        earisquam quod perspiciatis minima beatae natus siur ertert
+        mollitia reprehenderit pariatur rem, optio suscipit! ergeg ftrt
+        Loreet, consectetur adipisicing elit. Cupidiorporis re gtgetrer
+        earum quisquam quod persolor ratione ea consectetur ergvd klj kljdklj sasd
+        mollitia reprehenderit pariatur rem, optio suscipit! dfget tgtrg</p>
+
+    </div>
+
+    <div class="sec3d3">
+      <p class="s3d3p1">CLIENT <span
+          style="color: brown; font-family: 'Times New Roman', Times, serif; font-weight: 600; font-size: 1.5rem;">TESTIMONIALS</span>
+      </p>
+      <div>
+        <p class="s3d3p2">Read what others say about Keefer Law Firm.</p>
+        <div class="sixth">
+          <img class="shadowLine6" src="./images/hr_shadow.png" alt="shadow">
+          <button class="button6" type="button">
+            CLICK HERE
+            <img src="./images/bullet_white.gif" alt="img" class="btn6img">
+          </button>
+        </div>
+      </div>
+
+      <div>
+        <p class="s3d3p1">DOWNLOAD <span
+            style="color: brown; font-family: 'Times New Roman', Times, serif; font-weight: 600; font-size: 1.5rem;">FREE
+          </span>REPORTS</p>
+        <div>
+          <p class="s3d3p2">Discover the truth about Virginia Law.</p>
+          <div class="sixth">
+            <img class="shadowLine6" src="./images/hr_shadow.png" alt="shadow">
+            <button class="button6" type="button">
+              CLICK HERE
+              <img src="./images/bullet_white.gif" alt="img" class="btn6img">
+            </button>
+          </div>
+        </div>
+      </div>
+      <div>
+        <p class="s3d3p1">CONTACT <span
+            style="color: brown; font-family: 'Times New Roman', Times, serif; font-weight: 600; font-size: 1.5rem;">
+            OUR</span> OFFICES</p>
+        <div>
+          <p class="s3d3p2">Get your questions answered right now.</p>
+          <div class="sixth">
+            <img class="shadowLine6" src="./images/hr_shadow.png" alt="shadow">
+            <button class="button6" type="button">
+              CLICK HERE
+              <img src="./images/bullet_white.gif" alt="img" class="btn6img">
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="lastdiv">
+        <div class="lastImg">
+          <img src="./images/avo_rating_large.gif" alt=""><br><br>
+          <img src="./images/national_college_large.gif" alt="">
+        </div>
+        <p class="lastp">FOLLOW <span style="color: brown;">US</span></p>
+        <img src="./images/hr_shadow.png" alt="" class="lastshadow">
+        <div class="logos">
+          <img src="./images/fb_icon.gif" alt="">
+          <img src="./images/google_icon.gif" alt="">
+          <img src="./images/twitter_icon.gif" alt="">
+          <img src="./images/linked_icon.gif" alt="">
+        </div>
+      </div>
+    </div>
+
+  </section>
+</body>
+<div id="gradient"></div>
+
+
+</html>
